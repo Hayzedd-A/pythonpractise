@@ -1,0 +1,12 @@
+print("This solves simultaneous equation of two unknowns")
+print("Enter the co-efficient of the corresponding unknown in the format: ax + by = c")
+a1 = int(input("a:> "))
+b1 = int(input("b:> "))
+c1 = int(input("c:> "))
+a2 = int(input("a:> "))
+b2 = int(input("b:> "))
+c2 = int(input("c:> "))
+y = (c1 * a2 - c2 * a1) / (b1 * a2 - b2 * a1)
+x = (c1 - b1 * y) / a1
+print("x =:", x)
+print("y =:", y)
